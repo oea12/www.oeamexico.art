@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@media (max-width:991px) {
+    .vlt-footer--fixed {
+        background-color: rgba(0, 0, 0, 0.3);
+        padding: 10px !important;
+    }
+
+    .vlt-video-button a {
+        height: 100% !important;
+        width: 10vh !important;
+    }
+
+    .vlt-gap-100 {
+        height: 4vh !important;
+    }
+
+    .vlt-gap-160 {
+        height: 4vh !important;
+    }
+
+    .vlt-fullpage-slider .vlt-section .vlt-section__ken-burn-background img {
+    }
+
+    .vlt-video-button {
+        height: 10vh;
+    }
+}
